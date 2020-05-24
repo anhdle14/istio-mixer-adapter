@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: apigee-adapter
-        image: "gcr.io/apigee-api-management-istio/apigee-adapter:1.4.1"
+        image: "gcr.io/apigee-api-management-istio/apigee-adapter:1.4.2"
         imagePullPolicy: IfNotPresent #Always
         env:
         - name: GODEBUG # value must be 0, as apigee does not support http 2
